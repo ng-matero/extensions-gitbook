@@ -92,5 +92,3 @@ Exported as: `mtxProgress`
   </tbody>
 </table>
 
-
-

@@ -570,8 +570,6 @@ export interface MtxGridColumnButton {
 
 ```typescript
 export interface MtxGridColumnTag {
-  [key: number]: MtxGridColumnTagValue;
-  [key: string]: MtxGridColumnTagValue;
 }
 export interface MtxGridColumnTagValue {
   text?: string;

@@ -43,7 +43,7 @@ Exported as: `mtxCheckboxGroup`
     </tr>
     <tr>
       <td style="text-align:left">@Output()
-        <br /><code>change: EventEmitter&lt;{ <br />model: MtxCheckboxGroupOption[]; <br />index: number; }&gt;()</code>
+        <br /><code>change: EventEmitter&lt;{<br />model: MtxCheckboxGroupOption[];<br />index: number; }&gt;()</code>
       </td>
       <td style="text-align:left">Event emitted when the selection changed.</td>
     </tr>
