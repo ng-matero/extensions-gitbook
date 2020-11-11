@@ -10,7 +10,7 @@
 
 | Name | Description |
 | :--- | :--- |
-| content | content |
+| @Input\(\) `type: 'spinner' | 'progressbar'` | content |
 
 
 
