@@ -4,6 +4,8 @@
 
 `import { MtxPopoverModule } from '@ng-matero/extensions/popover';`
 
+## Directives
+
 ### MtxPopover
 
 Selector: `[mtx-popover]`
