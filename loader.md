@@ -4,3 +4,11 @@
 
 `import { MtxLoaderModule } from '@ng-matero/extensions/loader';`
 
+## Directives
+
+#### **Properties**
+
+| **Name** | Description |
+| :--- | :--- |
+|  |  |
+
