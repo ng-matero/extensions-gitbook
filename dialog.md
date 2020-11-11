@@ -15,15 +15,15 @@
 | Parameter | Description |
 | :--- | :--- |
 | `title: string` | The dialog title. |
-| `onOk = () => {}` | The ok callback function |
+| `onOk = () => {}` | The ok callback function. |
 
 `confirm(title: string, onOk = () => {}, onClose = () => {})`
 
 | Parameter | Description |
 | :--- | :--- |
 | `title: string` | The dialog title. |
-| `onOk = () => {}` | The ok callback function |
-| `onClose = () => {}` | The close callback function |
+| `onOk = () => {}` | The ok callback function. |
+| `onClose = () => {}` | The close callback function. |
 
 `open(config: MtxDialogData, componentOrTemplateRef: ComponentType | TemplateRef = MtxDialogComponent)`
 
