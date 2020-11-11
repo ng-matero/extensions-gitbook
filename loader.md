@@ -6,6 +6,12 @@
 
 ## Directives
 
+### MtxLoader
+
+Selector: `mtx-loader`
+
+Exported as: `mtxLoader`
+
 #### **Properties**
 
 <table>
