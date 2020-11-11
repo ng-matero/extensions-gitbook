@@ -103,7 +103,10 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">@Input()<code>showFirstLastButtons: boolean</code>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>showFirstLastButtons: boolean</code>
+        </p>
       </td>
       <td style="text-align:left">
         <p>Whether to show the first/last buttons UI to the user.</p>
@@ -160,10 +163,8 @@ Exported as: `mtxGrid`
       <td style="text-align:left">Event emitted when the paginator changes the page size or page index.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>sortOnFront: boolean</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>sortOnFront: boolean</code>
       </td>
       <td style="text-align:left">
         <p>Whether sort data just on front end.</p>
@@ -171,26 +172,20 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>sortActive: string</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>sortActive: string</code>
       </td>
       <td style="text-align:left">The id of the most recently sorted MatSortable.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>sortDirection: SortDirection</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>sortDirection: SortDirection</code>
       </td>
       <td style="text-align:left">The sort direction of the currently active MatSortable.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>sortDisableClear: boolean</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>sortDisableClear: boolean</code>
       </td>
       <td style="text-align:left">
         <p>Whether to disable the user from clearing the sort by finishing the sort
@@ -199,10 +194,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>sortDisabled: boolean</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>sortDisabled: boolean</code>
       </td>
       <td style="text-align:left">
         <p>Whether the grid sort is disabled.</p>
@@ -210,10 +203,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>sortStart: &apos;asc&apos; | &apos;desc&apos;</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>sortStart: &apos;asc&apos; | &apos;desc&apos;</code>
       </td>
       <td style="text-align:left">The direction to set when an MatSortable is initially sorted. May be overriden
         by the column&apos;s sort definition. Defaulted to asc.</td>
@@ -276,10 +267,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>rowSelected: any[]</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>rowSelected: any[]</code>
       </td>
       <td style="text-align:left">
         <p>The row selected items default.</p>
@@ -298,10 +287,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>rowSelectionFormatter: MtxGridRowSelectionFormatter</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>rowSelectionFormatter: MtxGridRowSelectionFormatter</code>
       </td>
       <td style="text-align:left">The row selection formatter to set disabled and checkbox hiding.</td>
     </tr>
@@ -346,7 +333,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>toolbarTitle: string</code>
+        <p><code>toolbarTitle</code>
         </p>
       </td>
       <td style="text-align:left">
@@ -355,12 +342,10 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>toolbarTemplate:</code>  <code>TemplateRef&lt;any&gt;</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>toolbarTemplate:</code>  <code>TemplateRef&lt;any&gt;</code>
       </td>
-      <td style="text-align:left">The toolbar template.</td>
+      <td style="text-align:left">The toolbar template</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -385,10 +370,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>columnMovable: boolean</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>columnMovable: boolean</code>
       </td>
       <td style="text-align:left">
         <p>Whether the column can be moving.</p>
@@ -396,18 +379,14 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Output()</p>
-        <p><code>columnChange: EventEmitter&lt;string[]&gt;</code>
-        </p>
+      <td style="text-align:left">@Output()
+        <br /><code>columnChange: EventEmitter&lt;string[]&gt;</code>
       </td>
       <td style="text-align:left">Event emitted when the column be hided or be resorted.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>showColumnMenuButton: boolean</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>showColumnMenuButton</code>
       </td>
       <td style="text-align:left">
         <p>Whether show column menu button.</p>
@@ -415,10 +394,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>columnMenuButtonText: string</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>columnMenuButtonText</code>
       </td>
       <td style="text-align:left">
         <p>The column menu button text.</p>
@@ -426,10 +403,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>columnMenuButtonType: &apos;raised&apos; | &apos;stroked&apos; | &apos;flat&apos; | &apos;icon&apos; | &apos;fab&apos; | &apos;mini-fab&apos; | &apos;&apos;</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>columnMenuButtonType</code>
       </td>
       <td style="text-align:left">
         <p>The column menu button type.</p>
@@ -437,10 +412,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>columnMenuButtonColor: string</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>columnMenuButtonColor</code>
       </td>
       <td style="text-align:left">
         <p>The column menu button color.</p>
@@ -448,7 +421,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">@Input() <code>columnMenuButtonClass: string</code>
+      <td style="text-align:left">@Input()
+        <br /><code>columnMenuButtonClass</code>
       </td>
       <td style="text-align:left">
         <p>The column menu button class.</p>
@@ -456,10 +430,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>columnMenuButtonIcon: string</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>columnMenuButtonIcon</code>
       </td>
       <td style="text-align:left">
         <p>The column menu button icon.</p>
@@ -467,10 +439,8 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>noResultText: string</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>noResultText</code>
       </td>
       <td style="text-align:left">
         <p>The no result text.</p>
@@ -478,54 +448,38 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>noResultTemplate: TemplateRef&lt;any&gt;</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>noResultTemplate: TemplateRef&lt;any&gt;</code>
       </td>
       <td style="text-align:left">The no result template.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>headerTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>headerTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
       </td>
       <td style="text-align:left">The grid header cell template.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>cellTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>cellTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
       </td>
       <td style="text-align:left">The grid body cell template.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>showSummary: boolean</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>showSummary = false</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether show summary.</p>
-        <p>Defaulted to <b>false</b>
-        </p>
-      </td>
+      <td style="text-align:left">Whether show summary.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>summaryTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
-        </p>
+      <td style="text-align:left">@Input()
+        <br /><code>summaryTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
       </td>
       <td style="text-align:left">The summary template.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Output()</p>
-        <p><code>rowClick: EventEmitter&lt;any&gt;;</code>
-        </p>
+      <td style="text-align:left">@Output()
+        <br /><code>rowClick: EventEmitter&lt;any&gt;;</code>
       </td>
       <td style="text-align:left">Row click event.</td>
     </tr>
