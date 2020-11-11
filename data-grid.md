@@ -346,7 +346,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>toolbarTitle</code>
+        <p><code>toolbarTitle: string</code>
         </p>
       </td>
       <td style="text-align:left">
@@ -360,7 +360,7 @@ Exported as: `mtxGrid`
         <p><code>toolbarTemplate:</code>  <code>TemplateRef&lt;any&gt;</code>
         </p>
       </td>
-      <td style="text-align:left">The toolbar template</td>
+      <td style="text-align:left">The toolbar template.</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -406,7 +406,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>showColumnMenuButton</code>
+        <p><code>showColumnMenuButton: boolean</code>
         </p>
       </td>
       <td style="text-align:left">
@@ -417,7 +417,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>columnMenuButtonText</code>
+        <p><code>columnMenuButtonText: string</code>
         </p>
       </td>
       <td style="text-align:left">
@@ -428,7 +428,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>columnMenuButtonType</code>
+        <p><code>columnMenuButtonType: &apos;raised&apos; | &apos;stroked&apos; | &apos;flat&apos; | &apos;icon&apos; | &apos;fab&apos; | &apos;mini-fab&apos; | &apos;&apos;</code>
         </p>
       </td>
       <td style="text-align:left">
@@ -439,7 +439,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>columnMenuButtonColor</code>
+        <p><code>columnMenuButtonColor: string</code>
         </p>
       </td>
       <td style="text-align:left">
@@ -448,7 +448,7 @@ Exported as: `mtxGrid`
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">@Input() <code>columnMenuButtonClass</code>
+      <td style="text-align:left">@Input() <code>columnMenuButtonClass: string</code>
       </td>
       <td style="text-align:left">
         <p>The column menu button class.</p>
@@ -458,7 +458,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>columnMenuButtonIcon</code>
+        <p><code>columnMenuButtonIcon: string</code>
         </p>
       </td>
       <td style="text-align:left">
@@ -469,7 +469,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>noResultText</code>
+        <p><code>noResultText: string</code>
         </p>
       </td>
       <td style="text-align:left">
@@ -504,10 +504,14 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>showSummary = false</code>
+        <p><code>showSummary: boolean</code>
         </p>
       </td>
-      <td style="text-align:left">Whether show summary.</td>
+      <td style="text-align:left">
+        <p>Whether show summary.</p>
+        <p>Defaulted to <b>false</b>
+        </p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">
