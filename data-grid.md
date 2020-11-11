@@ -64,7 +64,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>trackBy</code>
+        <p><code>trackBy: TrackByFunction&lt;any&gt;</code>
         </p>
       </td>
       <td style="text-align:left">Tracking function that will be used to check the differences in data changes.</td>
@@ -476,6 +476,12 @@ Exported as: `mtxGrid`
         <br /><code>summaryTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
       </td>
       <td style="text-align:left">The summary template.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">@Output()
+        <br /><code>rowClick: EventEmitter&lt;any&gt;;</code>
+      </td>
+      <td style="text-align:left">Row click event.</td>
     </tr>
   </tbody>
 </table>
