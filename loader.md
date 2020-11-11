@@ -8,7 +8,7 @@
 
 #### **Properties**
 
-| **Name** | Description |
+| Name | Description |
 | :--- | :--- |
 |  |  |
 
