@@ -477,12 +477,6 @@ Exported as: `mtxGrid`
       </td>
       <td style="text-align:left">The summary template.</td>
     </tr>
-    <tr>
-      <td style="text-align:left">@Output()
-        <br /><code>rowClick: EventEmitter&lt;any&gt;;</code>
-      </td>
-      <td style="text-align:left">Row click event.</td>
-    </tr>
   </tbody>
 </table>
 
