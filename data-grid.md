@@ -376,7 +376,7 @@ Exported as: `mtxGrid`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>columnHideableChecked: &apos;show&apos; | &apos;hide&apos;</code>
+        <p><code>columnHidingChecked: &apos;show&apos; | &apos;hide&apos;</code>
         </p>
       </td>
       <td style="text-align:left">
