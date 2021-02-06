@@ -24,6 +24,48 @@ Exported as: `mtxCheckboxGroup`
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>items: any[]</code>
+        </p>
+      </td>
+      <td style="text-align:left">Items array</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>bindLabel: string</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Object property to use for label.</p>
+        <p>Defaulted to <b>&apos;label&apos;</b>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>bindValue: string</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Object property to use for selected model. By default binds to whole object.</p>
+        <p>Defaulted to <b>&apos;value&apos;</b>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>compareWith: (a: any, b: any) =&gt; boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">A function to compare the option values with the selected values. The
+        first argument is a value from an option. The second is a value from the
+        selection(model). A boolean should be returned.</td>
+    </tr>
+    <tr>
       <td style="text-align:left">@Input()
         <br /><code>showSelectAll: boolean</code>
       </td>
@@ -56,10 +98,21 @@ Exported as: `mtxCheckboxGroup`
 
 ```typescript
 export interface MtxCheckboxGroupOption {
-  label: string;
-  value: string;
+  ariaDescribedby?: string;
+  ariaLabel?: string;
+  ariaLabelledby?: string;
+  label?: any;
+  value?: any;
+  color?: string;
   checked?: boolean;
   disabled?: boolean;
+  disableRipple?: boolean;
+  indeterminate?: boolean;
+  labelPosition?: 'before' | 'after';
+  id?: string;
+  name?: string | null;
+  required?: boolean;
+  [k: string]: any;
 }
 ```
 

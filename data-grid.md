@@ -182,80 +182,15 @@ Column menu
 
 Template
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Name</b>
-      </th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>noResultText: string</code>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p>The no result text.</p>
-        <p>Defaulted to <b>&apos;No records found&apos;</b>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>noResultTemplate: TemplateRef&lt;any&gt;</code>
-        </p>
-      </td>
-      <td style="text-align:left">The no result template.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>headerTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
-        </p>
-      </td>
-      <td style="text-align:left">The grid header cell template.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>cellTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
-        </p>
-      </td>
-      <td style="text-align:left">The grid body cell template.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>showSummary: boolean</code>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p>Whether show summary.</p>
-        <p>Defaulted to <b>false</b>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>summaryTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
-        </p>
-      </td>
-      <td style="text-align:left">The summary template.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Output()</p>
-        <p><code>rowClick: EventEmitter&lt;any&gt;;</code>
-        </p>
-      </td>
-      <td style="text-align:left">Row click event.</td>
-    </tr>
-  </tbody>
-</table>
+| **Name** | Description |
+| :--- | :--- |
+| @Input\(\) `noResultText: string` | The no result text. Defaulted to **'No records found'**. |
+| @Input\(\) `noResultTemplate: TemplateRef<any>` | The no result template. |
+| @Input\(\) `headerTemplate: TemplateRef<any> | MtxGridCellTemplate` | The grid header cell template. |
+| @Input\(\) `cellTemplate: TemplateRef<any> | MtxGridCellTemplate` | The grid body cell template. |
+| @Input\(\) `showSummary: boolean` | Whether show summary. Defaulted to **false** |
+| @Input\(\) `summaryTemplate: TemplateRef<any> | MtxGridCellTemplate` | The summary template. |
+| @Output\(\) `rowClick: EventEmitter<any>;` | Row click event. |
 
 ## Interfaces
 
