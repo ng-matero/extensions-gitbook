@@ -16,48 +16,13 @@ Exported as: `mtxGrid`
 
 Basic
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Name</b>
-      </th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">@Input()<code>columns: MtxGridColumn[]</code>
-      </td>
-      <td style="text-align:left">The grid columns defination.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">@Input() <code>data: any[]</code>
-      </td>
-      <td style="text-align:left">The grid data source.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">@Input() <code>length: number</code>
-      </td>
-      <td style="text-align:left">
-        <p>The length of the total number of data.</p>
-        <p>Defaulted to <b>0</b>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">@Input() <code>loading: boolean</code>
-      </td>
-      <td style="text-align:left">
-        <p>Whether the table loading is ended.</p>
-        <p>Defaulted to <b>false</b>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">@Input()<code>trackBy: TrackByFunction&lt;any&gt;</code>
-      </td>
-      <td style="text-align:left">Tracking function that will be used to check the differences in data changes.</td>
-    </tr>
-  </tbody>
-</table>
+| **Name** | Description |
+| :--- | :--- |
+| @Input\(\)`columns: MtxGridColumn[]` | The grid columns defination. |
+| @Input\(\) `data: any[]` | The grid data source. |
+| @Input\(\) `length: number` | The length of the total number of data. Defaulted to **0**. |
+| @Input\(\) `loading: boolean` | Whether the table loading is ended. Defaulted to **false**. |
+| @Input\(\)`trackBy: TrackByFunction<any>` | Tracking function that will be used to check the differences in data changes. |
 
 Page
 
