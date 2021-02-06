@@ -52,32 +52,181 @@ Sort
 
 Expansion
 
-| **Name** | Description |
-| :--- | :--- |
-| @Input\(\) `expandable: boolean` | Whether the row can be expanded. Defaulted to **false**. |
-| @Input\(\)`expansionTemplate: TemplateRef<any>` | The template of expandable row. |
-| @Output\(\)`expansionChange: EventEmitter<any>` | Event emitted when the user toggle the expandable row. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>expandable: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether the row can be expanded.</p>
+        <p>Defaulted to <b>false</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>expansionTemplate: TemplateRef&lt;any&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">The template of expandable row.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Output()</p>
+        <p><code>expansionChange: EventEmitter&lt;any&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">Event emitted when the user toggle the expandable row.</td>
+    </tr>
+  </tbody>
+</table>
 
 Selection
 
-| **Name** | Description |
-| :--- | :--- |
-| @Input\(\) `multiSelectable: boolean` | Whether the user can selecte multiple row or cell. Defaulted to **true**. |
-| @Input\(\) `rowSelectable: boolean` | Whether the row can be selectable. Defaulted to **false**. |
-| @Input\(\) `rowSelected: any[]` | The row selected items default. Defaulted to `[]`. |
-| @Input\(\) `hideRowSelectionCheckbox: boolean` | Whether hide the row selection checkbox. Defaulted to **false**. |
-| @Input\(\) `rowSelectionFormatter: MtxGridRowSelectionFormatter` | The row selection formatter to set disabled and checkbox hiding. |
-| @Output\(\)`rowSelectionChange: EventEmitter<any>` | Event emitted when the row be selected. |
-| @Input\(\) `cellSelectable: boolean` | Whether the cell can be selectable. Defaulted to **true**. |
-| @Output\(\) `cellSelectionChange: EventEmitter<any>` | Event emitted when the cell be selected. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>multiSelectable: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether the user can selecte multiple row or cell.</p>
+        <p>Defaulted to <b>true</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>rowSelectable: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether the row can be selectable.</p>
+        <p>Defaulted to <b>false</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>rowSelected: any[]</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>The row selected items default.</p>
+        <p>Defaulted to <code>[]</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>hideRowSelectionCheckbox: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether hide the row selection checkbox.</p>
+        <p>Defaulted to <b>false</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>rowSelectionFormatter: MtxGridRowSelectionFormatter</code>
+        </p>
+      </td>
+      <td style="text-align:left">The row selection formatter to set disabled and checkbox hiding.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Output()</p>
+        <p><code>rowSelectionChange: EventEmitter&lt;any&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">Event emitted when the row be selected.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>cellSelectable: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether the cell can be selectable.</p>
+        <p>Defaulted to <b>true</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Output()</p>
+        <p><code>cellSelectionChange: EventEmitter&lt;any&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">Event emitted when the cell be selected.</td>
+    </tr>
+  </tbody>
+</table>
 
 Toolbar
 
-| **Name** | Description |
-| :--- | :--- |
-| @Input\(\) `showToolbar: boolean` | Whether show the grid toolbar. Defaulted to **false**. |
-| @Input\(\) `toolbarTitle: string` | The toolbar title. Defaulted to **''**. |
-| @Input\(\) `toolbarTemplate: TemplateRef<any>` | The toolbar template. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>showToolbar: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether show the grid toolbar.</p>
+        <p>Defaulted to <b>false</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>toolbarTitle: string</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>The toolbar title.</p>
+        <p>Defaulted to <b>&apos;&apos;</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>toolbarTemplate:</code>  <code>TemplateRef&lt;any&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">The toolbar template.</td>
+    </tr>
+  </tbody>
+</table>
 
 Column menu
 
@@ -93,17 +242,26 @@ Column menu
     <tr>
       <td style="text-align:left">@Input() <code>columnHideable: boolean</code>
       </td>
-      <td style="text-align:left">Whether the column can be hiding. Defaulted to <b>true</b>.</td>
+      <td style="text-align:left">
+        <p>Whether the column can be hiding.</p>
+        <p>Defaulted to <b>true</b>.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnHideableChecked: &apos;show&apos; | &apos;hide&apos;</code>
       </td>
-      <td style="text-align:left">Hide or show when column hiding checkbox be checked. Defaulted to <b>&apos;show&apos;</b>.</td>
+      <td style="text-align:left">
+        <p>Hide or show when column hiding checkbox be checked.</p>
+        <p>Defaulted to <b>&apos;show&apos;</b>.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMovable: boolean</code>
       </td>
-      <td style="text-align:left">Whether the column can be moving. Defaulted to <b>true</b>.</td>
+      <td style="text-align:left">
+        <p>Whether the column can be moving.</p>
+        <p>Defaulted to <b>true</b>.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">@Output() <code>columnChange: EventEmitter&lt;string[]&gt;</code>
@@ -113,13 +271,19 @@ Column menu
     <tr>
       <td style="text-align:left">@Input() <code>showColumnMenuHeader: boolean</code>
       </td>
-      <td style="text-align:left">Whether show header of column menu. Defaulted to <b>false.</b>
+      <td style="text-align:left">
+        <p>Whether show header of column menu.</p>
+        <p>Defaulted to <b>false.</b>
+        </p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input()<code>columnMenuHeaderText: string</code>
       </td>
-      <td style="text-align:left">The header text of column menu. Defaulted to <code>&apos;Columns Header&apos;</code>
+      <td style="text-align:left">
+        <p>The header text of column menu.</p>
+        <p>Defaulted to <code>&apos;Columns Header&apos;</code>
+        </p>
       </td>
     </tr>
     <tr>
@@ -133,13 +297,19 @@ Column menu
     <tr>
       <td style="text-align:left">@Input() <code>showColumnMenuFooter: boolean</code>
       </td>
-      <td style="text-align:left">Whether show footer of column menu. Defaulted to <code>false</code>
+      <td style="text-align:left">
+        <p>Whether show footer of column menu.</p>
+        <p>Defaulted to <code>false</code>
+        </p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuFooterText: string</code>
       </td>
-      <td style="text-align:left">The header text of column menu. Defaulted to <code>&apos;Columns Footer&apos;</code>
+      <td style="text-align:left">
+        <p>The header text of column menu.</p>
+        <p>Defaulted to <code>&apos;Columns Footer&apos;</code>
+        </p>
       </td>
     </tr>
     <tr>
@@ -150,54 +320,130 @@ Column menu
     <tr>
       <td style="text-align:left">@Input() <code>showColumnMenuButton: boolean</code>
       </td>
-      <td style="text-align:left">Whether show column menu button. Defaulted to <b>true</b>.</td>
+      <td style="text-align:left">
+        <p>Whether show column menu button.</p>
+        <p>Defaulted to <b>true</b>.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuButtonText: string</code>
       </td>
-      <td style="text-align:left">The column menu button text. Defaulted to <b>&apos;&apos;</b>.</td>
+      <td style="text-align:left">
+        <p>The column menu button text.</p>
+        <p>Defaulted to <b>&apos;&apos;</b>.</p>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left">@Input()<code>columnMenuButtonType: &apos;raised&apos; | &apos;stroked&apos; | &apos;flat&apos; | &apos;icon&apos; | &apos;fab&apos; | &apos;mini-fab&apos; | &apos;&apos;</code>
+      <td style="text-align:left">@Input() <code>columnMenuButtonType: &apos;raised&apos; | &apos;stroked&apos; | &apos;flat&apos; | &apos;icon&apos; | &apos;fab&apos; | &apos;mini-fab&apos; | &apos;&apos;</code>
       </td>
-      <td style="text-align:left">The column menu button type. Defaulted to &apos;<b>stroked&apos;</b>.</td>
+      <td style="text-align:left">
+        <p>The column menu button type.</p>
+        <p>Defaulted to &apos;<b>stroked&apos;</b>.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuButtonColor: string</code>
       </td>
-      <td style="text-align:left">The column menu button color. Defaulted to <b>&apos;&apos;</b>.</td>
+      <td style="text-align:left">
+        <p>The column menu button color.</p>
+        <p>Defaulted to <b>&apos;&apos;</b>.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuButtonClass: string</code>
       </td>
-      <td style="text-align:left">The column menu button class. Defaulted to <b>&apos;&apos;</b>.</td>
+      <td style="text-align:left">
+        <p>The column menu button class.</p>
+        <p>Defaulted to <b>&apos;&apos;</b>.</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuButtonIcon: string</code>
       </td>
-      <td style="text-align:left">The column menu button icon. Defaulted to <b>&apos;&apos;</b>.</td>
+      <td style="text-align:left">
+        <p>The column menu button icon.</p>
+        <p>Defaulted to <b>&apos;&apos;</b>.</p>
+      </td>
     </tr>
   </tbody>
 </table>
 
 Template
 
-| **Name** | Description |
-| :--- | :--- |
-| @Input\(\) `noResultText: string` | The no result text. Defaulted to **'No records found'**. |
-| @Input\(\) `noResultTemplate: TemplateRef<any>` | The no result template. |
-| @Input\(\) `headerTemplate: TemplateRef<any> | MtxGridCellTemplate` | The grid header cell template. |
-| @Input\(\) `cellTemplate: TemplateRef<any> | MtxGridCellTemplate` | The grid body cell template. |
-| @Input\(\) `showSummary: boolean` | Whether show summary. Defaulted to **false** |
-| @Input\(\) `summaryTemplate: TemplateRef<any> | MtxGridCellTemplate` | The summary template. |
-
-Row
-
-| **Name** | Description |
-| :--- | :--- |
-| @Input\(\) `rowHover = false` | Whether use hover style. |
-| @Input\(\) `rowStriped = false` | Whether use striped style. |
-| @Output\(\) `rowClick: EventEmitter<any>;` | Row click event. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>noResultText: string</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>The no result text.</p>
+        <p>Defaulted to <b>&apos;No records found&apos;</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>noResultTemplate: TemplateRef&lt;any&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">The no result template.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>headerTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
+        </p>
+      </td>
+      <td style="text-align:left">The grid header cell template.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>cellTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
+        </p>
+      </td>
+      <td style="text-align:left">The grid body cell template.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>showSummary: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether show summary.</p>
+        <p>Defaulted to <b>false</b>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>summaryTemplate: TemplateRef&lt;any&gt; | MtxGridCellTemplate</code>
+        </p>
+      </td>
+      <td style="text-align:left">The summary template.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Output()</p>
+        <p><code>rowClick: EventEmitter&lt;any&gt;;</code>
+        </p>
+      </td>
+      <td style="text-align:left">Row click event.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Interfaces
 
@@ -273,22 +519,15 @@ export interface MtxGridColumnSortProp {
 ```typescript
 export interface MtxGridColumnButton {
   type?: 'basic' | 'icon';
-  text?: string | Observable<string>;
+  text?: string;
   icon?: string;
   color?: 'primary' | 'accent' | 'warn';
-  class?: string;
   click?: (record: any) => void;
   pop?: boolean;
-  popTitle?: string | Observable<string>;
-  popDescription?: string | Observable<string>;
-  popOkColor?: '' | 'primary' | 'accent' | 'warn';
-  popOkText?: string | Observable<string>;
-  popCloseColor?: '' | 'primary' | 'accent' | 'warn';
-  popCloseText?: string | Observable<string>;
+  popTitle?: string;
   children?: MtxGridColumnButton[];
   iif?: (record: any) => boolean;
-  tooltip?: string | Observable<string>;
-  disabled?: boolean;
+  tooltip?: string;
 }
 ```
 
