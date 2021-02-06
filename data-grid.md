@@ -70,26 +70,14 @@ Selection
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>multiSelectable: boolean</code>
-        </p>
+      <td style="text-align:left">@Input() <code>multiSelectable: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether the user can selecte multiple row or cell.</p>
-        <p>Defaulted to <b>true</b>.</p>
-      </td>
+      <td style="text-align:left">Whether the user can selecte multiple row or cell. Defaulted to <b>true</b>.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>rowSelectable: boolean</code>
-        </p>
+      <td style="text-align:left">@Input() <code>rowSelectable: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether the row can be selectable.</p>
-        <p>Defaulted to <b>false</b>.</p>
-      </td>
+      <td style="text-align:left">Whether the row can be selectable. Defaulted to <b>false</b>.</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -97,54 +85,30 @@ Selection
         <p><code>rowSelected: any[]</code>
         </p>
       </td>
-      <td style="text-align:left">
-        <p>The row selected items default.</p>
-        <p>Defaulted to <code>[]</code>.</p>
-      </td>
+      <td style="text-align:left">The row selected items default. Defaulted to <code>[]</code>.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>hideRowSelectionCheckbox: boolean</code>
-        </p>
+      <td style="text-align:left">@Input() <code>hideRowSelectionCheckbox: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether hide the row selection checkbox.</p>
-        <p>Defaulted to <b>false</b>.</p>
-      </td>
+      <td style="text-align:left">Whether hide the row selection checkbox. Defaulted to <b>false</b>.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>rowSelectionFormatter: MtxGridRowSelectionFormatter</code>
-        </p>
+      <td style="text-align:left">@Input() <code>rowSelectionFormatter: MtxGridRowSelectionFormatter</code>
       </td>
       <td style="text-align:left">The row selection formatter to set disabled and checkbox hiding.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Output()</p>
-        <p><code>rowSelectionChange: EventEmitter&lt;any&gt;</code>
-        </p>
+      <td style="text-align:left">@Output()<code>rowSelectionChange: EventEmitter&lt;any&gt;</code>
       </td>
       <td style="text-align:left">Event emitted when the row be selected.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>cellSelectable: boolean</code>
-        </p>
+      <td style="text-align:left">@Input() <code>cellSelectable: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether the cell can be selectable.</p>
-        <p>Defaulted to <b>true</b>.</p>
-      </td>
+      <td style="text-align:left">Whether the cell can be selectable. Defaulted to <b>true</b>.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p>@Output()</p>
-        <p><code>cellSelectionChange: EventEmitter&lt;any&gt;</code>
-        </p>
+      <td style="text-align:left">@Output() <code>cellSelectionChange: EventEmitter&lt;any&gt;</code>
       </td>
       <td style="text-align:left">Event emitted when the cell be selected.</td>
     </tr>
