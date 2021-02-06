@@ -331,15 +331,22 @@ export interface MtxGridColumnSortProp {
 ```typescript
 export interface MtxGridColumnButton {
   type?: 'basic' | 'icon';
-  text?: string;
+  text?: string | Observable<string>;
   icon?: string;
   color?: 'primary' | 'accent' | 'warn';
+  class?: string;
   click?: (record: any) => void;
   pop?: boolean;
-  popTitle?: string;
+  popTitle?: string | Observable<string>;
+  popDescription?: string | Observable<string>;
+  popOkColor?: '' | 'primary' | 'accent' | 'warn';
+  popOkText?: string | Observable<string>;
+  popCloseColor?: '' | 'primary' | 'accent' | 'warn';
+  popCloseText?: string | Observable<string>;
   children?: MtxGridColumnButton[];
   iif?: (record: any) => boolean;
-  tooltip?: string;
+  tooltip?: string | Observable<string>;
+  disabled?: boolean;
 }
 ```
 
