@@ -73,47 +73,11 @@ Selection
 
 Toolbar
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Name</b>
-      </th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>showToolbar: boolean</code>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p>Whether show the grid toolbar.</p>
-        <p>Defaulted to <b>false</b>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>toolbarTitle: string</code>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p>The toolbar title.</p>
-        <p>Defaulted to <b>&apos;&apos;</b>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>toolbarTemplate:</code>  <code>TemplateRef&lt;any&gt;</code>
-        </p>
-      </td>
-      <td style="text-align:left">The toolbar template.</td>
-    </tr>
-  </tbody>
-</table>
+| **Name** | Description |
+| :--- | :--- |
+| @Input\(\) `showToolbar: boolean` | Whether show the grid toolbar. Defaulted to **false**. |
+| @Input\(\) `toolbarTitle: string` | The toolbar title. Defaulted to **''**. |
+| @Input\(\) `toolbarTemplate: TemplateRef<any>` | The toolbar template. |
 
 Column menu
 
