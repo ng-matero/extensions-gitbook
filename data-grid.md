@@ -55,8 +55,8 @@ Expansion
 | **Name** | Description |
 | :--- | :--- |
 | @Input\(\) `expandable: boolean` | Whether the row can be expanded. Defaulted to **false**. |
-| @Input\(\)`expansionTemplate: TemplateRef<any>` | The template of expandable row. |
-| @Output\(\)`expansionChange: EventEmitter<any>` | Event emitted when the user toggle the expandable row. |
+| @Input\(\) `expansionTemplate: TemplateRef<any>` | The template of expandable row. |
+| @Output\(\) `expansionChange: EventEmitter<any>` | Event emitted when the user toggle the expandable row. |
 
 Selection
 
