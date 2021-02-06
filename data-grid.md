@@ -16,27 +16,152 @@ Exported as: `mtxGrid`
 
 Basic
 
-| **Name** | Description |
-| :--- | :--- |
-| @Input\(\)`columns: MtxGridColumn[]` | The grid columns defination. |
-| @Input\(\) `data: any[]` | The grid data source. |
-| @Input\(\) `length: number` | The length of the total number of data. Defaulted to **0**. |
-| @Input\(\) `loading: boolean` | Whether the table loading is ended. Defaulted to **false**. |
-| @Input\(\)`trackBy: TrackByFunction<any>` | Tracking function that will be used to check the differences in data changes. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">@Input()<code>columns: MtxGridColumn[]</code>
+      </td>
+      <td style="text-align:left">The grid columns defination.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">@Input() <code>data: any[]</code>
+      </td>
+      <td style="text-align:left">The grid data source.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">@Input() <code>length: number</code>
+      </td>
+      <td style="text-align:left">
+        <p>The length of the total number of data.</p>
+        <p>Defaulted to <b>0</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">@Input() <code>loading: boolean</code>
+      </td>
+      <td style="text-align:left">
+        <p>Whether the table loading is ended.</p>
+        <p>Defaulted to <b>false</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">@Input()<code>trackBy: TrackByFunction&lt;any&gt;</code>
+      </td>
+      <td style="text-align:left">Tracking function that will be used to check the differences in data changes.</td>
+    </tr>
+  </tbody>
+</table>
 
 Page
 
-| **Name** | Description |
-| :--- | :--- |
-| @Input\(\)`pageOnFront: boolean` | Whether paging the data just on front end. Defaulted to **true**. |
-| @Input\(\)`showPaginator: boolean` | Whether show the paginator. Defaulted to **true**. |
-| @Input\(\)`pageDisabled: boolean` | Whether the paginator is disabled. Defaulted to **false**. |
-| @Input\(\)`showFirstLastButtons: boolean` | Whether to show the first/last buttons UI to the user. Defaulted to **true**. |
-| @Input\(\)`pageIndex: number` | The zero-based page index of the displayed list of items. Defaulted to **0**. |
-| @Input\(\) `pageSize: number` | Number of items to display on a page. By default set to **10**. |
-| @Input\(\)`pageSizeOptions: number[]` | The set of provided page size options to display to the user. By default set to **\[10, 50, 100\]** |
-| @Input\(\)`hidePageSize: boolean` | Whether hide the pagesize. Defaulted to **false**. |
-| @Output\(\)`page: EventEmitter<PageEvent>` | Event emitted when the paginator changes the page size or page index. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>pageOnFront: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether paging the data just on front end.</p>
+        <p>Defaulted to <b>true</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>showPaginator: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether show the paginator.</p>
+        <p>Defaulted to <b>true</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>pageDisabled: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether the paginator is disabled.</p>
+        <p>Defaulted to <b>false</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">@Input()<code>showFirstLastButtons: boolean</code>
+      </td>
+      <td style="text-align:left">
+        <p>Whether to show the first/last buttons UI to the user.</p>
+        <p>Defaulted to <b>true</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>pageIndex: number</code>
+        </p>
+      </td>
+      <td style="text-align:left">The zero-based page index of the displayed list of items.
+        <br />Defaulted to <b>0</b>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>pageSize: number</code>
+        </p>
+      </td>
+      <td style="text-align:left">Number of items to display on a page.
+        <br />By default set to <b>10</b>.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>pageSizeOptions: number[]</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>The set of provided page size options to display to the user.</p>
+        <p>By default set to <b>[10, 50, 100]</b>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>hidePageSize: boolean</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>Whether hide the pagesize.</p>
+        <p>Defaulted to <b>false</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Output()</p>
+        <p><code>page: EventEmitter&lt;PageEvent&gt;</code>
+        </p>
+      </td>
+      <td style="text-align:left">Event emitted when the paginator changes the page size or page index.</td>
+    </tr>
+  </tbody>
+</table>
 
 Sort
 
