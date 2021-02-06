@@ -64,7 +64,7 @@ Exported as: `mtxProgress`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>foreground: string</code>
+        <p><code>foreground:string</code>
         </p>
       </td>
       <td style="text-align:left">The progress bar color.</td>
@@ -72,7 +72,7 @@ Exported as: `mtxProgress`
     <tr>
       <td style="text-align:left">
         <p>@Input()</p>
-        <p><code>background: string</code>
+        <p><code>background:string</code>
         </p>
       </td>
       <td style="text-align:left">The progress track color.</td>
