@@ -93,26 +93,17 @@ Column menu
     <tr>
       <td style="text-align:left">@Input() <code>columnHideable: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether the column can be hiding.</p>
-        <p>Defaulted to <b>true</b>.</p>
-      </td>
+      <td style="text-align:left">Whether the column can be hiding. Defaulted to <b>true</b>.</td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnHideableChecked: &apos;show&apos; | &apos;hide&apos;</code>
       </td>
-      <td style="text-align:left">
-        <p>Hide or show when column hiding checkbox be checked.</p>
-        <p>Defaulted to <b>&apos;show&apos;</b>.</p>
-      </td>
+      <td style="text-align:left">Hide or show when column hiding checkbox be checked. Defaulted to <b>&apos;show&apos;</b>.</td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMovable: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether the column can be moving.</p>
-        <p>Defaulted to <b>true</b>.</p>
-      </td>
+      <td style="text-align:left">Whether the column can be moving. Defaulted to <b>true</b>.</td>
     </tr>
     <tr>
       <td style="text-align:left">@Output() <code>columnChange: EventEmitter&lt;string[]&gt;</code>
@@ -122,19 +113,13 @@ Column menu
     <tr>
       <td style="text-align:left">@Input() <code>showColumnMenuHeader: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether show header of column menu.</p>
-        <p>Defaulted to <b>false.</b>
-        </p>
+      <td style="text-align:left">Whether show header of column menu. Defaulted to <b>false.</b>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input()<code>columnMenuHeaderText: string</code>
       </td>
-      <td style="text-align:left">
-        <p>The header text of column menu.</p>
-        <p>Defaulted to <code>&apos;Columns Header&apos;</code>
-        </p>
+      <td style="text-align:left">The header text of column menu. Defaulted to <code>&apos;Columns Header&apos;</code>
       </td>
     </tr>
     <tr>
@@ -148,19 +133,13 @@ Column menu
     <tr>
       <td style="text-align:left">@Input() <code>showColumnMenuFooter: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether show footer of column menu.</p>
-        <p>Defaulted to <code>false</code>
-        </p>
+      <td style="text-align:left">Whether show footer of column menu. Defaulted to <code>false</code>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuFooterText: string</code>
       </td>
-      <td style="text-align:left">
-        <p>The header text of column menu.</p>
-        <p>Defaulted to <code>&apos;Columns Footer&apos;</code>
-        </p>
+      <td style="text-align:left">The header text of column menu. Defaulted to <code>&apos;Columns Footer&apos;</code>
       </td>
     </tr>
     <tr>
@@ -171,50 +150,32 @@ Column menu
     <tr>
       <td style="text-align:left">@Input() <code>showColumnMenuButton: boolean</code>
       </td>
-      <td style="text-align:left">
-        <p>Whether show column menu button.</p>
-        <p>Defaulted to <b>true</b>.</p>
-      </td>
+      <td style="text-align:left">Whether show column menu button. Defaulted to <b>true</b>.</td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuButtonText: string</code>
       </td>
-      <td style="text-align:left">
-        <p>The column menu button text.</p>
-        <p>Defaulted to <b>&apos;&apos;</b>.</p>
-      </td>
+      <td style="text-align:left">The column menu button text. Defaulted to <b>&apos;&apos;</b>.</td>
     </tr>
     <tr>
-      <td style="text-align:left">@Input() <code>columnMenuButtonType: &apos;raised&apos; | &apos;stroked&apos; | &apos;flat&apos; | &apos;icon&apos; | &apos;fab&apos; | &apos;mini-fab&apos; | &apos;&apos;</code>
+      <td style="text-align:left">@Input()<code>columnMenuButtonType: &apos;raised&apos; | &apos;stroked&apos; | &apos;flat&apos; | &apos;icon&apos; | &apos;fab&apos; | &apos;mini-fab&apos; | &apos;&apos;</code>
       </td>
-      <td style="text-align:left">
-        <p>The column menu button type.</p>
-        <p>Defaulted to &apos;<b>stroked&apos;</b>.</p>
-      </td>
+      <td style="text-align:left">The column menu button type. Defaulted to &apos;<b>stroked&apos;</b>.</td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuButtonColor: string</code>
       </td>
-      <td style="text-align:left">
-        <p>The column menu button color.</p>
-        <p>Defaulted to <b>&apos;&apos;</b>.</p>
-      </td>
+      <td style="text-align:left">The column menu button color. Defaulted to <b>&apos;&apos;</b>.</td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuButtonClass: string</code>
       </td>
-      <td style="text-align:left">
-        <p>The column menu button class.</p>
-        <p>Defaulted to <b>&apos;&apos;</b>.</p>
-      </td>
+      <td style="text-align:left">The column menu button class. Defaulted to <b>&apos;&apos;</b>.</td>
     </tr>
     <tr>
       <td style="text-align:left">@Input() <code>columnMenuButtonIcon: string</code>
       </td>
-      <td style="text-align:left">
-        <p>The column menu button icon.</p>
-        <p>Defaulted to <b>&apos;&apos;</b>.</p>
-      </td>
+      <td style="text-align:left">The column menu button icon. Defaulted to <b>&apos;&apos;</b>.</td>
     </tr>
   </tbody>
 </table>
