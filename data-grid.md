@@ -52,44 +52,11 @@ Sort
 
 Expansion
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Name</b>
-      </th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>expandable: boolean</code>
-        </p>
-      </td>
-      <td style="text-align:left">
-        <p>Whether the row can be expanded.</p>
-        <p>Defaulted to <b>false</b>.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>expansionTemplate: TemplateRef&lt;any&gt;</code>
-        </p>
-      </td>
-      <td style="text-align:left">The template of expandable row.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <p>@Output()</p>
-        <p><code>expansionChange: EventEmitter&lt;any&gt;</code>
-        </p>
-      </td>
-      <td style="text-align:left">Event emitted when the user toggle the expandable row.</td>
-    </tr>
-  </tbody>
-</table>
+| **Name** | Description |
+| :--- | :--- |
+| @Input\(\) `expandable: boolean` | Whether the row can be expanded. Defaulted to **false**. |
+| @Input\(\)`expansionTemplate: TemplateRef<any>` | The template of expandable row. |
+| @Output\(\)`expansionChange: EventEmitter<any>` | Event emitted when the user toggle the expandable row. |
 
 Selection
 
