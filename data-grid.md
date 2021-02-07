@@ -40,15 +40,15 @@ Page
 
 Sort
 
-| **Name** | Description |  |
+| **Name** | Description |
 | :--- | :--- | :--- |
-| @Input\(\) `sortOnFront: boolean` | Whether sort data just on front end. Defaulted to **true**. |  |
-| @Input\(\) `sortActive: string` | The id of the most recently sorted MatSortable. |  |
-| @Input\(\) `sortDirection: SortDirection` | The sort direction of the currently active MatSortable. |  |
-| @Input\(\) `sortDisableClear: boolean` | Whether to disable the user from clearing the sort by finishing the sort direction cycle. May be overriden by the column's disable clear definition. Defaulted to **false**. |  |
-| @Input\(\)`sortDisabled: boolean` | Whether the grid sort is disabled. Defaulted to **false**. |  |
+| @Input\(\) `sortOnFront: boolean` | Whether sort data just on front end. Defaulted to **true**. |
+| @Input\(\) `sortActive: string` | The id of the most recently sorted MatSortable. |
+| @Input\(\) `sortDirection: SortDirection` | The sort direction of the currently active MatSortable. |
+| @Input\(\) `sortDisableClear: boolean` | Whether to disable the user from clearing the sort by finishing the sort direction cycle. May be overriden by the column's disable clear definition. Defaulted to **false**. |
+| @Input\(\)`sortDisabled: boolean` | Whether the grid sort is disabled. Defaulted to **false**. |
 | @Input\(\) `sortStart: 'asc' \| 'desc'` | The direction to set when an MatSortable is initially sorted. May be overriden by the column's sort definition. Defaulted to asc. |
-| @Output\(\) `sortChange: EventEmitter<sort>` | Event emitted when the user changes either the active sort or sort direction. |  |
+| @Output\(\) `sortChange: EventEmitter<sort>` | Event emitted when the user changes either the active sort or sort direction. |
 
 Expansion
 
