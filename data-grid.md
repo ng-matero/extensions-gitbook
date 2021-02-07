@@ -18,7 +18,7 @@ Basic
 
 | **Name** | Description |
 | :--- | :--- |
-| @Input\(\)`columns: MtxGridColumn[]` | The grid columns defination. |
+| @Input\(\) `columns: MtxGridColumn[]` | The grid columns defination. |
 | @Input\(\) `data: any[]` | The grid data source. |
 | @Input\(\) `length: number` | The length of the total number of data. Defaulted to **0**. |
 | @Input\(\) `loading: boolean` | Whether the table loading is ended. Defaulted to **false**. |
@@ -43,20 +43,20 @@ Sort
 | **Name** | Description |  |
 | :--- | :--- | :--- |
 | @Input\(\) `sortOnFront: boolean` | Whether sort data just on front end. Defaulted to **true**. |  |
-| @Input\(\)`sortActive: string` | The id of the most recently sorted MatSortable. |  |
-| @Input\(\)`sortDirection: SortDirection` | The sort direction of the currently active MatSortable. |  |
-| @Input\(\)`sortDisableClear: boolean` | Whether to disable the user from clearing the sort by finishing the sort direction cycle. May be overriden by the column's disable clear definition. Defaulted to **false**. |  |
+| @Input\(\) `sortActive: string` | The id of the most recently sorted MatSortable. |  |
+| @Input\(\) `sortDirection: SortDirection` | The sort direction of the currently active MatSortable. |  |
+| @Input\(\) `sortDisableClear: boolean` | Whether to disable the user from clearing the sort by finishing the sort direction cycle. May be overriden by the column's disable clear definition. Defaulted to **false**. |  |
 | @Input\(\)`sortDisabled: boolean` | Whether the grid sort is disabled. Defaulted to **false**. |  |
-| @Input\(\)\`sortStart: 'asc' | 'desc'\` | The direction to set when an MatSortable is initially sorted. May be overriden by the column's sort definition. Defaulted to asc. |
-| @Output\(\)`sortChange: EventEmitter<sort>` | Event emitted when the user changes either the active sort or sort direction. |  |
+| @Input\(\) `sortStart: 'asc' \| 'desc'` | The direction to set when an MatSortable is initially sorted. May be overriden by the column's sort definition. Defaulted to asc. |
+| @Output\(\) `sortChange: EventEmitter<sort>` | Event emitted when the user changes either the active sort or sort direction. |  |
 
 Expansion
 
 | **Name** | Description |
 | :--- | :--- |
 | @Input\(\) `expandable: boolean` | Whether the row can be expanded. Defaulted to **false**. |
-| @Input\(\)`expansionTemplate: TemplateRef<any>` | The template of expandable row. |
-| @Output\(\)`expansionChange: EventEmitter<any>` | Event emitted when the user toggle the expandable row. |
+| @Input\(\) `expansionTemplate: TemplateRef<any>` | The template of expandable row. |
+| @Output\(\) `expansionChange: EventEmitter<any>` | Event emitted when the user toggle the expandable row. |
 
 Selection
 
@@ -84,12 +84,12 @@ Column menu
 | **Name** | Description |
 | :--- | :--- |
 | @Input\(\) `columnHideable: boolean` | Whether the column can be hiding. Defaulted to **true**. |
-| @Input\(\)`columnHideableChecked: 'show' \| 'hide'` | Hide or show when column hiding checkbox be checked. Defaulted to **'show'**. |
+| @Input\(\) `columnHideableChecked: 'show' \| 'hide'` | Hide or show when column hiding checkbox be checked. Defaulted to **'show'**. |
 | @Input\(\) `columnMovable: boolean` | Whether the column can be moving. Defaulted to **true**. |
 | @Output\(\) `columnChange: EventEmitter<string[]>` | Event emitted when the column be hided or be resorted. |
 | @Input\(\) `showColumnMenuHeader: boolean` | Whether show header of column menu. Defaulted to **false.** |
-| @Input\(\)`columnMenuHeaderText: string` | The header text of column menu. Defaulted to `'Columns Header'` |
-| @Input\(\)`columnMenuHeaderTemplate: TemplateRef<any>` | The header template of column menu. |
+| @Input\(\) `columnMenuHeaderText: string` | The header text of column menu. Defaulted to `'Columns Header'` |
+| @Input\(\) `columnMenuHeaderTemplate: TemplateRef<any>` | The header template of column menu. |
 | @Input\(\) `showColumnMenuFooter: boolean` | Whether show footer of column menu. Defaulted to `false` |
 | @Input\(\) `columnMenuFooterText: string` | The header text of column menu. Defaulted to `'Columns Footer'` |
 | @Input\(\) `columnMenuFooterTemplate: TemplateRef<any>` | The footer template of column menu. |

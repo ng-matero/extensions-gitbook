@@ -16,7 +16,7 @@ Exported as: `mtxLoader`
 
 | Name | Description |
 | :--- | :--- |
-| @Input\(\)`type: 'spinner' \| 'progressbar'` | The loader type. Defaulted to **'spinner'** |
+| @Input\(\) `type: 'spinner' \| 'progressbar'` | The loader type. Defaulted to **'spinner'** |
 | @Input\(\) `loading: boolean` | The loading status. |
 | @Input\(\) `color: ThemePalette` | Theme color palette for the component. |
 | @Input\(\) `mode：ProgressSpinnerMode \| ProgressBarMode` | Mode of the progress circle. |

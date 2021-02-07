@@ -16,7 +16,7 @@ Exported as: `mtxProgress`
 
 | **Name** | Description |
 | :--- | :--- |
-| @Input\(\)`type: 'default' \| 'info' \| 'success' \| 'warning' \| 'danger'` | The progress types. Defaulted to **info**. |
+| @Input\(\) `type: 'default' \| 'info' \| 'success' \| 'warning' \| 'danger'` | The progress types. Defaulted to **info**. |
 | @Input\(\) `value: number` | The progress value. Defaulted to **0**. |
 | @Input\(\) `height: number` | The progress height. |
 | @Input\(\) `color: string` | The progress text color. |

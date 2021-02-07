@@ -21,5 +21,5 @@ The color picker component is just like a `matInput`
 | @Input\(\) `value: string` | Value of the color picker control. |
 | @Input\(\) `placeholder: string` | Placeholder of the color picker control. |
 | @Input\(\) `disabled: boolean` | Whether disabled the color picker control. |
-| @Output\(\)`colorChange: EventEmitter<{ color: Color; $event: MouseEvent }>` | Event emitted when the color changed. |
+| @Output\(\) `colorChange: EventEmitter<{ color: Color; $event: MouseEvent }>` | Event emitted when the color changed. |
 
