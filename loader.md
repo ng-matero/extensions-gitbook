@@ -16,10 +16,10 @@ Exported as: `mtxLoader`
 
 | Name | Description |
 | :--- | :--- |
-| @Input\(\)`type: 'spinner' | 'progressbar'` | The loader type. Defaulted to **'spinner'** |
+| @Input\(\)`type: 'spinner' \| 'progressbar'` | The loader type. Defaulted to **'spinner'** |
 | @Input\(\) `loading: boolean` | The loading status. |
 | @Input\(\) `color: ThemePalette` | Theme color palette for the component. |
-| @Input\(\) `mode：ProgressSpinnerMode | ProgressBarMode` | Mode of the progress circle. |
+| @Input\(\) `mode：ProgressSpinnerMode \| ProgressBarMode` | Mode of the progress circle. |
 | @Input\(\) `value: number` | Value of the progress circle or progress bar. |
 | @Input\(\) `strokeWidth: number` | Stroke width of the progress spinner. Defaulted to **4**. |
 | @Input\(\) `diameter: number` | The diameter of the progress spinner \(will set width and height of svg\). Defaulted to **48.** |
