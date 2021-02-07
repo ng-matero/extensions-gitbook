@@ -6,5 +6,5 @@
 
 ## API
 
-[angular-split](https://angular-split.github.io/#/documentation) 
+[angular-split](https://angular-split.github.io/#/documentation)
 
