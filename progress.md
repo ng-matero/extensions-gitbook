@@ -14,16 +14,83 @@ Exported as: `mtxProgress`
 
 #### **Properties**
 
-| **Name** | Description |
-| :--- | :--- |
-| @Input\(\) `type: 'default' | 'info' | 'success' | 'warning' | 'danger'` | The progress types. Defaulted to **info**. |
-| @Input\(\) `value: number` | The progress value. Defaulted to **0**. |
-| @Input\(\) `height: number` | The progress height. |
-| @Input\(\) `color: string` | The progress text color. |
-| @Input\(\) `foreground: string` | The progress bar color. |
-| @Input\(\) `background: string` | The progress track color. |
-| @Input\(\) `striped: boolean` | Whether applies striped class. |
-| @Input\(\) `animate: boolean` | Whether applies animated class. |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Name</b>
+      </th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>type: &apos;default&apos; | &apos;info&apos; | &apos;success&apos; | &apos;warning&apos; | &apos;danger&apos;</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>The progress types.</p>
+        <p>Defaulted to <b>info</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>value: number</code>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>The progress value.</p>
+        <p>Defaulted to <b>0</b>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>height: number</code>
+        </p>
+      </td>
+      <td style="text-align:left">The progress height.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>color: string</code>
+        </p>
+      </td>
+      <td style="text-align:left">The progress text color.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>foreground:string</code>
+        </p>
+      </td>
+      <td style="text-align:left">The progress bar color.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>@Input()</p>
+        <p><code>background:string</code>
+        </p>
+      </td>
+      <td style="text-align:left">The progress track color.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">@Input()
+        <br /><code>striped: boolean</code>
+      </td>
+      <td style="text-align:left">Whether applies striped class.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">@Input()
+        <br /><code>animate: boolean</code>
+      </td>
+      <td style="text-align:left">Whether applies animated class.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
