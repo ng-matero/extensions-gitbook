@@ -40,15 +40,15 @@ Page
 
 Sort
 
-| **Name** | Description |  |
-| :--- | :--- | :--- |
-| @Input\(\) `sortOnFront: boolean` | Whether sort data just on front end. Defaulted to **true**. |  |
-| @Input\(\)`sortActive: string` | The id of the most recently sorted MatSortable. |  |
-| @Input\(\)`sortDirection: SortDirection` | The sort direction of the currently active MatSortable. |  |
-| @Input\(\)`sortDisableClear: boolean` | Whether to disable the user from clearing the sort by finishing the sort direction cycle. May be overriden by the column's disable clear definition. Defaulted to **false**. |  |
-| @Input\(\)`sortDisabled: boolean` | Whether the grid sort is disabled. Defaulted to **false**. |  |
-| @Input\(\)\`sortStart: 'asc' | 'desc'\` | The direction to set when an MatSortable is initially sorted. May be overriden by the column's sort definition. Defaulted to asc. |
-| @Output\(\)`sortChange: EventEmitter<sort>` | Event emitted when the user changes either the active sort or sort direction. |  |
+| **Name** | Description |
+| :--- | :--- |
+| @Input\(\) `sortOnFront: boolean` | Whether sort data just on front end. Defaulted to **true**. |
+| @Input\(\)`sortActive: string` | The id of the most recently sorted MatSortable. |
+| @Input\(\)`sortDirection: SortDirection` | The sort direction of the currently active MatSortable. |
+| @Input\(\)`sortDisableClear: boolean` | Whether to disable the user from clearing the sort by finishing the sort direction cycle. May be overriden by the column's disable clear definition. Defaulted to **false**. |
+| @Input\(\)`sortDisabled: boolean` | Whether the grid sort is disabled. Defaulted to **false**. |
+| @Input\(\)`sortStart: 'asc' | 'desc'` | The direction to set when an MatSortable is initially sorted. May be overriden by the column's sort definition. Defaulted to asc. |
+| @Output\(\)`sortChange: EventEmitter<sort>` | Event emitted when the user changes either the active sort or sort direction. |
 
 Expansion
 
@@ -81,35 +81,35 @@ Toolbar
 
 Column menu
 
-| **Name** | Description |  |  |  |  |  |  |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| @Input\(\) `columnHideable: boolean` | Whether the column can be hiding. Defaulted to **true**. |  |  |  |  |  |  |
-| @Input\(\)\`columnHideableChecked: 'show' | 'hide'\` | Hide or show when column hiding checkbox be checked. Defaulted to **'show'**. |  |  |  |  |  |
-| @Input\(\) `columnMovable: boolean` | Whether the column can be moving. Defaulted to **true**. |  |  |  |  |  |  |
-| @Output\(\) `columnChange: EventEmitter<string[]>` | Event emitted when the column be hided or be resorted. |  |  |  |  |  |  |
-| @Input\(\) `showColumnMenuHeader: boolean` | Whether show header of column menu. Defaulted to **false.** |  |  |  |  |  |  |
-| @Input\(\)`columnMenuHeaderText: string` | The header text of column menu. Defaulted to `'Columns Header'` |  |  |  |  |  |  |
-| @Input\(\)`columnMenuHeaderTemplate: TemplateRef<any>` | The header template of column menu. |  |  |  |  |  |  |
-| @Input\(\) `showColumnMenuFooter: boolean` | Whether show footer of column menu. Defaulted to `false` |  |  |  |  |  |  |
-| @Input\(\) `columnMenuFooterText: string` | The header text of column menu. Defaulted to `'Columns Footer'` |  |  |  |  |  |  |
-| @Input\(\) `columnMenuFooterTemplate: TemplateRef<any>` | The footer template of column menu. |  |  |  |  |  |  |
-| @Input\(\) `showColumnMenuButton: boolean` | Whether show column menu button. Defaulted to **true**. |  |  |  |  |  |  |
-| @Input\(\) `columnMenuButtonText: string` | The column menu button text. Defaulted to **''**. |  |  |  |  |  |  |
-| @Input\(\) \`columnMenuButtonType: 'raised' | 'stroked' | 'flat' | 'icon' | 'fab' | 'mini-fab' | ''\` | The column menu button type. Defaulted to '**stroked'**. |
-| @Input\(\) `columnMenuButtonColor: string` | The column menu button color. Defaulted to **''**. |  |  |  |  |  |  |
-| @Input\(\) `columnMenuButtonClass: string` | The column menu button class. Defaulted to **''**. |  |  |  |  |  |  |
-| @Input\(\) `columnMenuButtonIcon: string` | The column menu button icon. Defaulted to **''**. |  |  |  |  |  |  |
+| **Name** | Description |
+| :--- | :--- |
+| @Input\(\) `columnHideable: boolean` | Whether the column can be hiding. Defaulted to **true**. |
+| @Input\(\)`columnHideableChecked: 'show' | 'hide'` | Hide or show when column hiding checkbox be checked. Defaulted to **'show'**. |
+| @Input\(\) `columnMovable: boolean` | Whether the column can be moving. Defaulted to **true**. |
+| @Output\(\) `columnChange: EventEmitter<string[]>` | Event emitted when the column be hided or be resorted. |
+| @Input\(\) `showColumnMenuHeader: boolean` | Whether show header of column menu. Defaulted to **false.** |
+| @Input\(\)`columnMenuHeaderText: string` | The header text of column menu. Defaulted to `'Columns Header'` |
+| @Input\(\)`columnMenuHeaderTemplate: TemplateRef<any>` | The header template of column menu. |
+| @Input\(\) `showColumnMenuFooter: boolean` | Whether show footer of column menu. Defaulted to `false` |
+| @Input\(\) `columnMenuFooterText: string` | The header text of column menu. Defaulted to `'Columns Footer'` |
+| @Input\(\) `columnMenuFooterTemplate: TemplateRef<any>` | The footer template of column menu. |
+| @Input\(\) `showColumnMenuButton: boolean` | Whether show column menu button. Defaulted to **true**. |
+| @Input\(\) `columnMenuButtonText: string` | The column menu button text. Defaulted to **''**. |
+| @Input\(\) `columnMenuButtonType: 'raised' | 'stroked' | 'flat' | 'icon' | 'fab' | 'mini-fab' | ''` | The column menu button type. Defaulted to '**stroked'**. |
+| @Input\(\) `columnMenuButtonColor: string` | The column menu button color. Defaulted to **''**. |
+| @Input\(\) `columnMenuButtonClass: string` | The column menu button class. Defaulted to **''**. |
+| @Input\(\) `columnMenuButtonIcon: string` | The column menu button icon. Defaulted to **''**. |
 
 Template
 
-| **Name** | Description |  |
-| :--- | :--- | :--- |
-| @Input\(\) `noResultText: string` | The no result text. Defaulted to **'No records found'**. |  |
-| @Input\(\) `noResultTemplate: TemplateRef<any>` | The no result template. |  |
-| @Input\(\) \`headerTemplate: TemplateRef | MtxGridCellTemplate\` | The grid header cell template. |
-| @Input\(\) \`cellTemplate: TemplateRef | MtxGridCellTemplate\` | The grid body cell template. |
-| @Input\(\) `showSummary: boolean` | Whether show summary. Defaulted to **false** |  |
-| @Input\(\) \`summaryTemplate: TemplateRef | MtxGridCellTemplate\` | The summary template. |
+| **Name** | Description |
+| :--- | :--- |
+| @Input\(\) `noResultText: string` | The no result text. Defaulted to **'No records found'**. |
+| @Input\(\) `noResultTemplate: TemplateRef<any>` | The no result template. |
+| @Input\(\) `headerTemplate: TemplateRef<any> | MtxGridCellTemplate` | The grid header cell template. |
+| @Input\(\) `cellTemplate: TemplateRef<any> | MtxGridCellTemplate` | The grid body cell template. |
+| @Input\(\) `showSummary: boolean` | Whether show summary. Defaulted to **false** |
+| @Input\(\) `summaryTemplate: TemplateRef<any> | MtxGridCellTemplate` | The summary template. |
 
 Row
 
