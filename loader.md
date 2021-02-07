@@ -6,24 +6,23 @@
 
 ## Directives
 
+### MtxLoader
+
+Selector: `mtx-loader`
+
+Exported as: `mtxLoader`
+
 #### **Properties**
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p>@Input()</p>
-        <p><code>type: &apos;spinner&apos; | &apos;progressbar&apos;</code>
-        </p>
-      </td>
-      <td style="text-align:left">content</td>
-    </tr>
-  </tbody>
-</table>
+| Name | Description |
+| :--- | :--- |
+| @Input\(\)`type: 'spinner' | 'progressbar'` | The loader type. Defaulted to **'spinner'** |
+| @Input\(\) `loading: boolean` | The loading status. |
+| @Input\(\) `color: ThemePalette` | Theme color palette for the component. |
+| @Input\(\) `mode：ProgressSpinnerMode | ProgressBarMode` | Mode of the progress circle. |
+| @Input\(\) `value: number` | Value of the progress circle or progress bar. |
+| @Input\(\) `strokeWidth: number` | Stroke width of the progress spinner. Defaulted to **4**. |
+| @Input\(\) `diameter: number` | The diameter of the progress spinner \(will set width and height of svg\). Defaulted to **48.** |
+| @Input\(\) `bufferValue: number` | Buffer value of the progress bar. Defaulted to **0**. |
+| @Input\(\) `hasBackdrop: boolean` | Whether show loader backdrop. Defaulted to **true.** |
 
