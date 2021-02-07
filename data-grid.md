@@ -84,7 +84,7 @@ Column menu
 | **Name** | Description |
 | :--- | :--- |
 | @Input\(\) `columnHideable: boolean` | Whether the column can be hiding. Defaulted to **true**. |
-| @Input\(\)`columnHideableChecked: 'show' | 'hide'` | Hide or show when column hiding checkbox be checked. Defaulted to **'show'**. |
+| @Input\(\)`columnHideableChecked: 'show' \| 'hide'` | Hide or show when column hiding checkbox be checked. Defaulted to **'show'**. |
 | @Input\(\) `columnMovable: boolean` | Whether the column can be moving. Defaulted to **true**. |
 | @Output\(\) `columnChange: EventEmitter<string[]>` | Event emitted when the column be hided or be resorted. |
 | @Input\(\) `showColumnMenuHeader: boolean` | Whether show header of column menu. Defaulted to **false.** |
@@ -95,7 +95,7 @@ Column menu
 | @Input\(\) `columnMenuFooterTemplate: TemplateRef<any>` | The footer template of column menu. |
 | @Input\(\) `showColumnMenuButton: boolean` | Whether show column menu button. Defaulted to **true**. |
 | @Input\(\) `columnMenuButtonText: string` | The column menu button text. Defaulted to **''**. |
-| @Input\(\) `columnMenuButtonType: 'raised' | 'stroked' | 'flat' | 'icon' | 'fab' | 'mini-fab' | ''` | The column menu button type. Defaulted to '**stroked'**. |
+| @Input\(\) `columnMenuButtonType: 'raised' \| 'stroked' \| 'flat' \| 'icon' \| 'fab' \| 'mini-fab' \| ''` | The column menu button type. Defaulted to '**stroked'**. |
 | @Input\(\) `columnMenuButtonColor: string` | The column menu button color. Defaulted to **''**. |
 | @Input\(\) `columnMenuButtonClass: string` | The column menu button class. Defaulted to **''**. |
 | @Input\(\) `columnMenuButtonIcon: string` | The column menu button icon. Defaulted to **''**. |
@@ -106,10 +106,10 @@ Template
 | :--- | :--- |
 | @Input\(\) `noResultText: string` | The no result text. Defaulted to **'No records found'**. |
 | @Input\(\) `noResultTemplate: TemplateRef<any>` | The no result template. |
-| @Input\(\) `headerTemplate: TemplateRef<any> | MtxGridCellTemplate` | The grid header cell template. |
-| @Input\(\) `cellTemplate: TemplateRef<any> | MtxGridCellTemplate` | The grid body cell template. |
+| @Input\(\) `headerTemplate: TemplateRef<any> \| MtxGridCellTemplate` | The grid header cell template. |
+| @Input\(\) `cellTemplate: TemplateRef<any> \| MtxGridCellTemplate` | The grid body cell template. |
 | @Input\(\) `showSummary: boolean` | Whether show summary. Defaulted to **false** |
-| @Input\(\) `summaryTemplate: TemplateRef<any> | MtxGridCellTemplate` | The summary template. |
+| @Input\(\) `summaryTemplate: TemplateRef<any> \| MtxGridCellTemplate` | The summary template. |
 
 Row
 

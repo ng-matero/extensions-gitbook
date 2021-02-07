@@ -16,7 +16,7 @@ Exported as: `mtxAlert`
 
 | **Name** | Description |
 | :--- | :--- |
-| @Input\(\)`type: 'default' | 'info' | 'success' | 'warning' | 'danger'` | The alert types. Defaulted to **default**. |
+| @Input\(\)`type: 'default' \| 'info' \| 'success' \| 'warning' \| 'danger'` | The alert types. Defaulted to **default**. |
 | @Input\(\) `isOpen: boolean` | Whether alert visible. Defaulted to **true**. |
 | @Input\(\) `dismissible: boolean` | Whether displays an inline `close` button. |
 | @Input\(\) `color: string` | The alert text color. |

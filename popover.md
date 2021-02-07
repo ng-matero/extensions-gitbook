@@ -16,8 +16,8 @@ Exported as: `mtxPopover`
 
 | Name | Description |
 | :--- | :--- |
-| @Input\(\)`xPosition: 'after' | 'before' | 'center'` | Position of the popover in the X axis. Defaults to `'after'` |
-| @Input\(\) `yPosition: 'top' | 'below'` | Position of the popover in the Y axis. Defaults to `'below'` |
+| @Input\(\)`xPosition: 'after' \| 'before' \| 'center'` | Position of the popover in the X axis. Defaults to `'after'` |
+| @Input\(\) `yPosition: 'top' \| 'below'` | Position of the popover in the Y axis. Defaults to `'below'` |
 | @Input\(\) `enterDelay: number` | Popover enter delay. Only support hover event. Defaults to `100` |
 | @Input\(\) `leaveDelay: number` | Popover enter delay. Only support hover event. Defaults to `100` |
 | @Input\(\) `xOffset: number` | Popover target offset X. Defaults to `0` |
