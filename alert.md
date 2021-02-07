@@ -23,5 +23,3 @@ Exported as: `mtxAlert`
 | @Input\(\) `elevation: number` | The material elevation for alert. Defaulted to **0**. |
 | @Output\(\)`closed: EventEmitter<MtxAlertComponent>` | This event fires when alert closed. |
 
-\*\*\*\*
-
