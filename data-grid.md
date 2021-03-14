@@ -140,11 +140,11 @@ export interface MtxGridColumn {
   typeParameter?: MtxGridColumnTypeParameter;
   tag?: MtxGridColumnTag;
   buttons?: MtxGridColumnButton[];
-  formatter?: (rowData: any, colDef?: any) => void;
+  formatter?: (rowData: any, colDef?: MtxGridColumn) => void;
   cellTemplate?: TemplateRef<any> | null;
   showExpand?: boolean;
   description?: string;
-  summary?: ((colData: any, colDef?: any) => void) | string;
+  summary?: ((colData: any[], colDef?: MtxGridColumn) => void) | string;
 }
 ```
 
