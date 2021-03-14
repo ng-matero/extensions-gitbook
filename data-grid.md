@@ -41,7 +41,7 @@ Page
 Sort
 
 | **Name** | Description |
-| :--- | :--- | :--- |
+| :--- | :--- |
 | @Input\(\) `sortOnFront: boolean` | Whether sort data just on front end. Defaulted to **true**. |
 | @Input\(\) `sortActive: string` | The id of the most recently sorted MatSortable. |
 | @Input\(\) `sortDirection: SortDirection` | The sort direction of the currently active MatSortable. |
@@ -144,7 +144,6 @@ export interface MtxGridColumn {
   cellTemplate?: TemplateRef<any> | null;
   showExpand?: boolean;
   description?: string;
-  i18n?: string;
   summary?: ((colData: any, colDef?: any) => void) | string;
 }
 ```
