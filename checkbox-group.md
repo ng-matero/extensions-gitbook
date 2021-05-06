@@ -1,32 +1,32 @@
 # Checkbox Group
 
-### API reference for Material Extensions CheckboxGroup
+## API reference for Material Extensions CheckboxGroup
 
 `import { MtxCheckboxGroupModule } from '@ng-matero/extensions/checkbox-group';`
 
-## Directives
+### Directives
 
-### MtxCheckboxGroup
+#### `MtxCheckboxGroup`
 
-Selector: `mtx-checkbox-group`
+Selector: `[mtx-checkbox-group]`
 
 Exported as: `mtxCheckboxGroup`
 
-#### **Properties**
+##### Properties
 
-| **Name** | Description |
+| Name | Description |
 | :--- | :--- |
 | @Input\(\) `items: any[]` | Items array. |
-| @Input\(\) `bindLabel: string` | Object property to use for label. Defaulted to **'label'** |
-| @Input\(\) `bindValue: string` | Object property to use for selected model. By default binds to whole object. Defaulted to **'value'** |
-| @Input\(\)  `compareWith: (a: any, b: any) => boolean` | A function to compare the option values with the selected values. The first argument is a value from an option. The second is a value from the selection\(model\). A boolean should be returned. |
-| @Input\(\) `showSelectAll: boolean` | Whether show select all. Defaulted to **true**. |
-| @Input\(\) `selectAllLabel: string` | The lable of select all. Defaulted to **Select All**. |
+| @Input\(\) `bindLabel: string` | Object property to use for label. Defaulted to **`'label'`** |
+| @Input\(\) `bindValue: string` | Object property to use for selected model. By default binds to whole object. Defaulted to **`'value'`** |
+| @Input\(\) `compareWith: (a: any, b: any) => boolean` | A function to compare the option values with the selected values. The first argument is a value from an option. The second is a value from the selection\(model\). A boolean should be returned. |
+| @Input\(\) `showSelectAll: boolean` | Whether show select all. Defaulted to **`true`**. |
+| @Input\(\) `selectAllLabel: string` | The lable of select all. Defaulted to **`'Select All'`**. |
 | @Output\(\) `change: EventEmitter<{  model: MtxCheckboxGroupOption[];  index: number; }>()` | Event emitted when the selection changed. |
 
-## Interfaces
+### Interfaces
 
-### Checkbox Group Option
+#### Checkbox Group Option
 
 ```typescript
 export interface MtxCheckboxGroupOption {

@@ -20,3 +20,4 @@
 
 [Split Pane](split-pane.md)
 
+[Tooltip](tooltip.md)

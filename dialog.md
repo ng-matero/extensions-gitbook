@@ -1,53 +1,69 @@
 # Dialog
 
-### API reference for Material Extensions Dialog
+## API reference for Material Extensions Dialog
 
 `import { MtxDialogModule } from '@ng-matero/extensions/dialog';`
 
-## Services
+### Services
 
-### MtxDialog
+#### `MtxDialog`
 
-#### **Methods**
+##### Methods
 
-`alert(title: string, onOk = () => {}): void`
-
-| Parameter | Description |
-| :--- | :--- |
-| `title: string` | The dialog title. |
-| `onOk = () => {}` | The ok callback function. |
-
-`confirm(title: string, onOk = () => {}, onClose = () => {})`
+`alert`
 
 | Parameter | Description |
 | :--- | :--- |
-| `title: string` | The dialog title. |
-| `onOk = () => {}` | The ok callback function. |
-| `onClose = () => {}` | The close callback function. |
+| `title: string \| Observable<string>` | The dialog title. |
+| `description: string \| Observable<string>` | The dialog description. Defaulted to **`''`**  |
+| `onOk: () => void` | The ok callback function. Defaulted to **`() => {}`** |
 
-`open(config: MtxDialogData, componentOrTemplateRef: ComponentType | TemplateRef = MtxDialogComponent)`
+`confirm`
 
-`originalOpen(componentOrTemplateRef: ComponentType | TemplateRef = MtxDialogComponent, config: any)`
+| Parameter | Description |
+| :--- | :--- |
+| `title: string \| Observable<string>` | The dialog title. |
+| `description: string \| Observable<string>` | The dialog description. Defaulted to **`''`** |
+| `onOk: () => void` | The ok callback function. Defaulted to **`() => {}`** |
+| `onClose: () => void` | The close callback function. Defaulted to **`() => {}`** |
 
-## Interfaces
+`open`
 
-### Dialog Data
+| Parameter | Description |
+| :--- | :--- |
+| `config: MtxDialogData` | The dialog description. |
+| `componentOrTemplateRef: ComponentType<T>` | The component to load into the dialog. Defaulted to **`MtxDialogComponent`** |
+
+`originalOpen`
+
+| Parameter | Description |
+| :--- | :--- |
+| `componentOrTemplateRef: ComponentType<T>` | The component to load into the dialog. Defaulted to **`MtxDialogComponent`** |
+| `config?: MatDialogConfig<D>` | The dialog description. |
+
+### Interfaces
+
+#### Dialog Data
 
 ```typescript
 export interface MtxDialogData extends MatDialogConfig {
-  title?: string;
-  description?: string;
+  title?: string | Observable<string>;
+  description?: string | Observable<string>;
   buttons?: MtxDialogBtns[];
+  showCloseIcon?: boolean;
 }
 ```
 
-### Dialog Button
+#### Dialog Button
 
 ```typescript
 export interface MtxDialogBtns {
-  type?: '' | 'primary' | 'accent' | 'warn';
-  text: string;
-  onClick: () => void;
+  type?: '' | 'raised' | 'stroked' | 'flat';
+  color?: '' | 'primary' | 'accent' | 'warn';
+  class?: string;
+  focusInitial?: boolean;
+  text: string | Observable<string>;
+  onClick?: () => void;
 }
 ```
 

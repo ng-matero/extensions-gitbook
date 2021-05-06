@@ -4,17 +4,17 @@
 
 `import { MtxColorPickerModule } from '@ng-matero/extensions/color-picker';`
 
-## Directives
+### Directives
 
-### MtxColorPicker
+#### `MtxColorPicker`
 
 Selector: `[mtx-color-picker]`
 
 Exported as: `mtxColorPicker`
 
-#### Properties
+##### Properties
 
-The color picker component is just like a `matInput`
+The color picker component is just like a `matInput`.
 
 | Name | Description |
 | :--- | :--- |
